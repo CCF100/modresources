@@ -55,6 +55,10 @@ allprojects {
             name = "Minecraft Forge"
             url "https://maven.minecraftforge.net/"
         }
+        maven {
+            name = "Polymer"
+            url 'https://maven.nucleoid.xyz' 
+        }
         flatDir {
             dirs "libs"
         }
