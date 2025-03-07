@@ -17,7 +17,7 @@ dependencyResolutionManagement {
             if (settings.ext.has("dependenciesPuzzlesApi")) {
                 version("puzzlesapi", settings.ext.find("dependenciesPuzzlesApi"))
             }
-            if (settings.ext.has("dependenciesPolymerVersion)) {
+            if (settings.ext.has("dependenciesPolymerVersion")) {
                 version("polymer-version", settings.ext.find("dependenciesPolymerVersion"))                     
             }
             if (settings.ext.has("dependenciesFactoryToolsVersion)) {
