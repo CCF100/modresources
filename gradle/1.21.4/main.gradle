@@ -161,7 +161,7 @@ subprojects {
         modImplementation include("eu.pb4:polymer-core:[${dependenciesPolymerVersion}+${libs.versions.minecraft.get()}]")
         modImplementation include("eu.pb4:polymer-resource-pack:[${dependenciesPolymerVersion}+${libs.versions.minecraft.get()}]")
         modImplementation include("eu.pb4:polymer-autohost:[${dependenciesPolymerVersion}+${libs.versions.minecraft.get()}]")
-        modImplementation include("eu.pb4:polymer-virtual-entity:[${project.polymer_version}]")
+        modImplementation include("eu.pb4:polymer-virtual-entity:[${dependenciesPolymerVersion}+${libs.versions.minecraft.get()}]")
         modImplementation include("eu.pb4:factorytools:[${dependenciesFactoryToolsVersion}+${libs.versions.minecraft.get()}]")
         mappings loom.layered() {
             officialMojangMappings {
